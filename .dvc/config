@@ -1,0 +1,4 @@
+[core]
+    remote = mygcsremote
+['remote "mygcsremote"']
+    url = gs://staging-eu-ml-pipelines-g98e
