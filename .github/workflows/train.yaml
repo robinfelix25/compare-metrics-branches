@@ -19,6 +19,7 @@ jobs:
       - name: write CML repro
         run: |
           pip install -r requirements.txt
+          dvc --version
           dvc repro 
 
           git fetch --prune
