@@ -1,5 +1,5 @@
 wget
-sklearn
+sklearn-learn
 pandas
 seaborn
 matplotlib
