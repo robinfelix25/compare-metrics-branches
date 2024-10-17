@@ -1,4 +1,4 @@
 [core]
     remote = mygcsremote
 ['remote "mygcsremote"']
-    url = gs://staging-eu-ml-pipelines-g98e
+    url = gs://staging-eu-ml-pipelines-g98e/dvc_test_data
