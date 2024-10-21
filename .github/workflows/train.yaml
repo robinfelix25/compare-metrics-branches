@@ -17,6 +17,8 @@ jobs:
       #     python-version: '3.x'
       - uses: iterative/setup-cml@v2
       - name: write CML repro
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           wget https://ars.els-cdn.com/content/image/1-s2.0-S2352340920303048-mmc1.zip
           pip install -r requirements.txt
